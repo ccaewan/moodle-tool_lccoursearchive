@@ -7,8 +7,8 @@ A lifecycle trigger that targets courses for archival based on inactivity and ag
 A course is selected for archival when **all** of the following are true:
 
 - The course context is **not** already locked (not already archived)
-- The course was created more than `creationdelay` ago (default: 24 months)
-- The most recent enrolled-user access is older than `lastaccessdelay` (default: 12 months), **or** the course has never been accessed at all
+- The course was created more than `creationdelay` ago (default: 24 months / 2 years)
+- The most recent enrolled-user access is older than `lastaccessdelay` (default: 12 months / 1 year), **or** the course has never been accessed at all
 
 ## Installation
 
